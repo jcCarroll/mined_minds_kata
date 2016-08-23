@@ -1,14 +1,12 @@
-x = 1
+x = 0
 100.times do
-	puts x
 	x = x + 1
-	if (x % 3 == 0)
-		puts "mined"
-	end
-	if (x % 5 == 0)
-		puts "minds"
-	end
-	if (x % 3 and x % 5 == 0)
+	if (x % 3 == 0 and x % 5 == 0)
 		puts "mined minds"
+	elsif (x % 3 == 0)
+		puts "mined"
+	elsif (x % 5 == 0)
+		puts "minds"
+	else puts x
 	end
 end
