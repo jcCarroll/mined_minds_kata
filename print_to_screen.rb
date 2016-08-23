@@ -4,37 +4,37 @@
 # if number is exactly divisible by 3 and 5 replace with “Mined Minds"
 
 # divis by 3
-# x = 1
+# number = 1
 # 100.times do
-# 	if x % 3 == 0
+# 	if number % 3 == 0
 # 		puts "mined"
-# 	else puts x
+# 	else puts number
 # 	end
-# 	x = x + 1
+# 	number = number + 1
 # end
 
 # added divis by 5
-# x = 1
+# number = 1
 # 100.times do
-# 	if x % 3 == 0
+# 	if number % 3 == 0
 # 		puts "mined"
-# 	elsif x % 5 == 0
+# 	elsif number % 5 == 0
 # 		puts "minds"
-# 	else puts x
+# 	else puts number
 # 	end
-# 	x = x + 1
+# 	number = number + 1
 # end
 
 # added divis by 3 and 5
-x = 1
+number = 1
 100.times do
-	if (x % 3 == 0 && x % 5 == 0)
+	if (number % 3 == 0 && number % 5 == 0)
 		puts "mined minds"
-	elsif (x % 3 == 0)
+	elsif (number % 3 == 0)
 		puts "mined"
-	elsif (x % 5 == 0)
+	elsif (number % 5 == 0)
 		puts "minds"
-	else puts x
+	else puts number
 	end
-	x = x + 1
+	number = number + 1
 end
