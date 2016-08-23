@@ -1,6 +1,6 @@
 x = 1
 100.times do
-	if x == 3
+	if (x % 3 == 0)
 		puts "mined"
 	else
 		puts x
