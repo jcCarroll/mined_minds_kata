@@ -28,7 +28,7 @@
 # added divis by 3 and 5
 x = 1
 100.times do
-	if (x % 3 == 0 and x % 5 == 0)
+	if (x % 3 == 0 && x % 5 == 0)
 		puts "mined minds"
 	elsif (x % 3 == 0)
 		puts "mined"
