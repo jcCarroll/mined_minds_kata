@@ -1,6 +1,5 @@
-x = 0
+x = 1
 100.times do
-	x = x + 1
 	if (x % 3 == 0 and x % 5 == 0)
 		puts "mined minds"
 	elsif (x % 3 == 0)
@@ -9,4 +8,5 @@ x = 0
 		puts "minds"
 	else puts x
 	end
+	x = x + 1
 end
