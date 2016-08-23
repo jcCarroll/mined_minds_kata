@@ -8,4 +8,7 @@ x = 1
 	if (x % 5 == 0)
 		puts "minds"
 	end
+	if (x % 3 and x % 5 == 0)
+		puts "mined minds"
+	end
 end
