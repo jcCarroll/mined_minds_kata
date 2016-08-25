@@ -8,6 +8,5 @@ def show_lotfi(number)
 end
 
 def show_jake(number)
-	number + 2
-	
+	number
 end
