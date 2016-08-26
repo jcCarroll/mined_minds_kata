@@ -17,4 +17,8 @@ class TestShowLotfi <Minitest::Test
 	def test_3_returns_monkey
 		assert_equal("monkey", show_jake(3))
 	end
+
+	def test_15_returns_soda
+		assert_equal("soda", what(15))
+	end
 end
