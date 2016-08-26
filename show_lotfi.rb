@@ -6,10 +6,12 @@ def show_lotfi(number)
 	end
 end
 
-def what()
-
-	
+def what(number)
+	if number % 3 == 0 && number % 5 == 0
+		"soda"
+	end	
 end
+
 def show_jake(number)
 	if number % 3 == 0
 		"monkey"
