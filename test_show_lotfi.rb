@@ -21,4 +21,8 @@ class TestShowLotfi <Minitest::Test
 	def test_15_returns_soda
 		assert_equal("soda", what(15))
 	end
+
+	def test_18_returns_pop
+		assert_equal("pop", what(18))
+	end
 end
