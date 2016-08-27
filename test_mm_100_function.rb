@@ -27,5 +27,5 @@ class TestMM100Function <Minitest::Test
 # ends the class
 end
 
-# this test has 3 runs and 4 assertions
-# i am not sure why i get 4 assertions when i only have 3 def
+# this test has 4 runs and 5 assertions
+# i am not sure why i get 5 assertions when i only have 4 def

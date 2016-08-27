@@ -34,20 +34,20 @@ end
 
 ######### below mined minds function 2 #########
 
-number = 1
-100.times do
-	if number % 2 == 0 && number % 3 == 0
-		puts "Let's Go! Mountaineers!"
-	elsif number % 3 == 0
-		puts "mined"
-	elsif number % 5 == 0
-		name = ["jacob", "christopher", "carroll"]
-		puts name.sample
-	else puts number
-	end
+# number = 1
+# 100.times do
+# 	if number % 2 == 0 && number % 3 == 0
+# 		puts "Let's Go! Mountaineers!"
+# 	elsif number % 3 == 0
+# 		puts "mined"
+# 	elsif number % 5 == 0
+# 		name = ["jacob", "christopher", "carroll"]
+# 		puts name.sample
+# 	else puts number
+# 	end
 
-	number = number + 1
-end
+# 	number = number + 1
+# end
 
 ######### below is known working when tested #########
 
