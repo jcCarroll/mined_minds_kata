@@ -4,7 +4,7 @@ def jacob(number) ## turn off to run function
 	# a remainder of 0 
 	if number % 3 == 0
 		# which will print mined
-		puts "mined"
+		"mined"
 	# if the number does not meet the if conditional statement it is run
 	# through the elsif conditional statement whre the number must equal 5
 	elsif
@@ -12,12 +12,12 @@ def jacob(number) ## turn off to run function
 		# name is set equal to the array
 		name = ["jacob", "christopher", "carroll"]
 		# a sample is pulled from the array and printed
-		puts name.sample
+		name.sample
 	# if the first two conditions are not met then the number is picked up by
 	# the else conditional statement where the number is left untouched to be
 	# returned as it is
 	else
-		puts number
+		number
 	# ends the if else conditional statements
 	end
 # number = number + 1 ## turn off to run test
