@@ -1,5 +1,5 @@
 def mined_minds(number)
-	if number % 3 == 0 && number % 5 ==0
+	if number % 3 == 0 && number % 5 ==0  # test something that has a remainder
 		"mined minds"
 	elsif 
 		number % 3 == 0
