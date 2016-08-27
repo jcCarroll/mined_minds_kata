@@ -1,12 +1,12 @@
 def mined_minds(number)
 	if number % 3 == 0 && number % 5 ==0  # test something that has a remainder
-		"mined minds"
+		puts "mined minds"
 	elsif 
 		number % 3 == 0
-		"mined"
+		puts "mined"
 	elsif
 		number % 5 ==0
-		"minds"		
+		puts "minds"		
 	else 
 		number
 	end

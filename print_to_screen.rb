@@ -7,7 +7,7 @@
 # number = 1
 # 100.times do
 # 	if number % 3 == 0
-# 		"mined"
+# 		puts "mined"
 # 	else 
 # 		number
 # 	end
@@ -18,10 +18,10 @@
 # number = 1
 # 100.times do
 # 	if number % 3 == 0
-# 		"mined"
+# 		puts "mined"
 # 	elsif 
 # 		number % 5 == 0
-# 		"minds"
+# 		puts "minds"
 # 	else
 # 		number
 # 	end
@@ -32,13 +32,13 @@
 number = 1
 100.times do
 	if number % 3 == 0 && number % 5 == 0
-		"mined minds"
+		puts "mined minds"
 	elsif 
 		number % 3 == 0
-		"mined"
+		puts "mined"
 	elsif 
 		number % 5 == 0
-		"minds"
+		puts "minds"
 	else
 		number
 	end

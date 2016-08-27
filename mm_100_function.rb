@@ -4,7 +4,7 @@ def jacob(number)
 	# a remainder of 0 
 	if number % 3 == 0
 		# which will print mined
-		"mined"
+		puts "mined"
 	# if the number does not meet the if conditional statement it is run
 	# through the elsif conditional statement whre the number must equal 5
 	elsif
