@@ -20,8 +20,12 @@ class TestMM100Function <Minitest::Test
 		# (expects mined returned, when passing jacob 3)
 		assert_equal("mined", jacob(3))
 	end
+
+	def test_18_returns_letsgowvu
+		assert_equal("Let's Go! Mountaineers!", jacob(18))
+	end
 # ends the class
 end
 
 # this test has 3 runs and 4 assertions
-# i am not sure why i get 4 assertions when i only have 3 definitions
+# i am not sure why i get 4 assertions when i only have 3 def
