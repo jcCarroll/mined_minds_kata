@@ -1,5 +1,5 @@
 def jacob(number)
-	if number == 5
+	if number = 5
 		name = ["jacob", "christopher", "carroll"]
 		name.sample
 	else
