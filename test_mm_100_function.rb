@@ -6,7 +6,7 @@ class TestMM100Function <Minitest::Test
 		assert_equal(1, jacob(1))
 	end
 
-	def test_5447_returns_jacob_christopher_carroll_random
-		assert_equal([jacob,christopher.carroll].random, jacob(5447))
+	def test_5447_returns_jacob_christopher_carroll
+		assert_includes(["jacob", "christopher", "carroll"], jacob(5))
 	end
 end
