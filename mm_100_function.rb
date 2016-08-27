@@ -6,7 +6,7 @@ number = 1
 		# a remainder of 0 
 		if number % 3 == 0
 			# which will print mined
-			puts "mined"
+			"mined"
 		# if the number does not meet the if conditional statement it is run
 		# through the elsif conditional statement whre the number must equal 5
 		elsif
@@ -26,3 +26,26 @@ number = 1
 	# ends the definition
 	end
 end
+
+
+
+
+
+
+
+
+
+######### below is known working #########
+
+
+# def jacob(number)
+# 	if number % 3 == 0
+# 		"mined"
+# 	elsif
+# 		number = 5
+# 		name = ["jacob", "christopher", "carroll"]
+# 		name.sample
+# 	else
+# 		number
+# 	end
+# end
