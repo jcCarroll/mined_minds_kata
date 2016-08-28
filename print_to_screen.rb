@@ -9,7 +9,7 @@
 # 	if number % 3 == 0
 # 		puts "mined"
 # 	else 
-# 		number
+# 		puts number
 # 	end
 # 	number = number + 1
 # end
@@ -23,7 +23,7 @@
 # 		number % 5 == 0
 # 		puts "minds"
 # 	else
-# 		number
+# 		puts number
 # 	end
 # 	number = number + 1
 # end
@@ -44,3 +44,10 @@ number = 1
 	end
 	number = number + 1
 end
+
+
+
+
+
+
+
