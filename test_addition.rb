@@ -29,6 +29,10 @@ class TestSubtractionFunction <Minitest::Test
 		assert_equal(0, sub(1, 1))
 	end
 
+	def test_10_subtract_5
+		assert_equal(5, sub(10, 5))
+	end
+
 
 
 end
