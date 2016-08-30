@@ -41,7 +41,7 @@ class TestDivideFunction <Minitest::Test
 	end
 
 	def test_100_divide_0
-		assert_equal(100, div(100, 0))
+		assert_equal("infinity", div(100, 0))
 	end
 end
 
