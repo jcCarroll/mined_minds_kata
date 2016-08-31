@@ -16,4 +16,6 @@ def mined_minds
 	end
 end
 
-array = [mined_minds]
+def mined()
+	bob = [mined_minds]
+end
