@@ -30,4 +30,9 @@ class TestMinedMindsFunction <Minitest::Test
 		assert_equal("mined minds", mined_minds(15))
 	end
 
+	def test_first_element_1
+		result = mined_minds_array(number)
+		assert_equal(1, result.first)
+	end
+
 end
