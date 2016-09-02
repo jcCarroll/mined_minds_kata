@@ -1,7 +1,10 @@
 require "minitest/autorun"
+# loads the default configuration to run the test minitest/autorun
 require_relative "mined_minds_array.rb"
+# points to the function file that is to be tested
 
-class TestMinedMindsFunction <Minitest::Test 
+class TestMinedMindsFunction <Minitest::Test
+	
     def test_first_element_1
 		result = mined()
 		assert_equal(1, mined[0])
