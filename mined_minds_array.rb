@@ -1,5 +1,7 @@
 def mined()
+	# building an array numbering from 1 to 100
 	array = [*1..100]
+	# 
 	array.map!  {|element|
 		if element % 3 == 0 && element % 5 == 0
 			"minedminds"
