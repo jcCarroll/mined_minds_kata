@@ -17,6 +17,26 @@ def mined()
    	}
 end
 
+###### Below - Short code ######
+
+# def mined()
+# 	a = [*1..100] 
+# 	a.map!  {|e|
+# 		if e % 3 == 0 && e % 5 == 0
+# 			"minedminds"
+#    		elsif
+#        		e % 3 == 0
+#        		"mined"
+#    		elsif
+#       		e % 5 == 0
+#        		"minds"
+#    		else
+#       		e
+#    		end
+#    	}
+# end
+
+###### Below - Prints to screen ######
 
 # array = [*1..100]
 # 	array.map!  {|element|
