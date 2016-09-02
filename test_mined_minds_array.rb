@@ -3,8 +3,8 @@ require_relative "mined_minds_array.rb"
 
 class TestMinedMindsFunction <Minitest::Test 
 def test_first_element_1
-		result = mined()
-		assert_equal(1, bob[0])
+		# result = mined()
+		assert_equal(1, mined[0])
 	end
 end
 
