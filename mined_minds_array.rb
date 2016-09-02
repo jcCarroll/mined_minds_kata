@@ -3,7 +3,8 @@ def mined()
 	array = [*1..100]
 	# not 100% on what map does. not sure it is the right method
 	# is the array my object or class and is map my method?
-	# the || tell my function to cycle through the elements in my array
+	# the || tells my function to cycle through the elements in my array
+	# and then to run each pass through the if statements
 	array.map do |element|
 		if element % 3 == 0 && element % 5 == 0
 			"minedminds"
