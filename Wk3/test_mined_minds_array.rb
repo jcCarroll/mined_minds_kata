@@ -6,7 +6,7 @@ require_relative "mined_minds_array.rb"
 class TestMinedMindsFunction <Minitest::Test
 	
     def test_element_0
-		result = mined()
+		# result = mined()
 		assert_equal(1, mined[0])
 	end
 
