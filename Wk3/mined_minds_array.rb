@@ -6,18 +6,18 @@ def mined()
 	# is the array my object or class and is map my method?
 	# the || tells my function to cycle through the elements in my array
 	# and then to run each pass through the if statements
-		if element % 3 == 0 && element % 5 == 0
-			"minedminds"
-   		elsif
-       		element % 3 == 0
-       		"mined"
-   		elsif
-      		element % 5 == 0
-       		"minds"
-   		else
-      		 element
-   		end
-   	end
+	if element % 3 == 0 && element % 5 == 0
+		"minedminds"
+ 		elsif
+     		element % 3 == 0
+     		"mined"
+ 		elsif
+     		element % 5 == 0
+     		"minds"
+ 		else
+     		 element
+ 		end
+ 	end
 end
 
 ###### Below - Short code ######
@@ -27,16 +27,16 @@ end
 # 	a.map!  {|e|
 # 		if e % 3 == 0 && e % 5 == 0
 # 			"minedminds"
-#    		elsif
-#        		e % 3 == 0
-#        		"mined"
-#    		elsif
-#       		e % 5 == 0
-#        		"minds"
-#    		else
-#       		e
-#    		end
-#    	}
+#    	elsif
+#      		e % 3 == 0
+#      		"mined"
+#    	elsif
+#      		e % 5 == 0
+#      		"minds"
+#    	else
+#      		e
+#    	end
+#    }
 # end
 
 ###### Below - Prints to screen ######
@@ -45,14 +45,14 @@ end
 # 	array.map!  {|element|
 # 		if element % 3 == 0 && element % 5 == 0
 # 			"minedminds"
-#    		elsif
-#        		element % 3 == 0
-#        		"mined"
-#    		elsif
-#       		element % 5 == 0
-#        		"minds"
-#    		else
-#       		 element
-#    		end
-#    	}
-#    		puts array
+#    	elsif
+#      		element % 3 == 0
+#      		"mined"
+#    	elsif
+#      		element % 5 == 0
+#      		"minds"
+#    	else
+#      		 element
+#    	end
+#    }
+#    	puts array
