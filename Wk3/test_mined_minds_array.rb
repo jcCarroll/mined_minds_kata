@@ -29,4 +29,9 @@ class TestMinedMindsFunction <Minitest::Test
 		result = mined()
 		assert_equal(1, mined.first)
 	end
+
+	def test_last_element
+		result = mined()
+		assert_equal("minds", mined.last)
+	end
 end
