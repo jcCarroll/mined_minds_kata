@@ -11,27 +11,27 @@ class TestMinedMindsFunction <Minitest::Test
 	end
 
 	def test_element_2_mined
-		result = mined()
+		# result = mined()
 		assert_equal("mined", mined[2])
 	end
 
 	def test_element_4_minds
-		result = mined()
+		# result = mined()
 		assert_equal("minds", mined[4])
 	end
 
 	def test_element_14_minedminds
-		result = mined()
+		# result = mined()
 		assert_equal("minedminds", mined[14])
 	end
 
 	def test_first_element
-		result = mined()
+		# result = mined()
 		assert_equal(1, mined.first)
 	end
 
 	def test_last_element
-		result = mined()
+		# result = mined()
 		assert_equal("minds", mined.last)
 	end
 end
