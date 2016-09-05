@@ -7,7 +7,8 @@ def mined()
 	# not 100% on what map does. i think it takes each element in the array
 	# passes it through the block (if statements) and replaces the element in 
 	# the array with what the block returns
-	# the || tells my function to cycle through the elements in my array?
+	# the || tells my function that each element is now set to a variable
+	# that it will cycle through my array
 	# and then to run each pass through the if statements
 	if element % 3 == 0 && element % 5 == 0
 		"minedminds"
