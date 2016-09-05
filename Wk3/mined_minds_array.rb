@@ -1,3 +1,5 @@
+# i don't think this is the right way. it seems that i should be taking the
+# array to the test and then going through it.
 def mined()
 	array = [*1..100]
 	# building an array numbering from 1 to 100
