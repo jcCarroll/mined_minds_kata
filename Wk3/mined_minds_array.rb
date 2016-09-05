@@ -10,7 +10,7 @@ def mined()
 	# the || tells my function that each element is now set to a variable (and 
 	# the what the variable is |element|) that it will cycle through my array
 	# and then to run each pass through the if statements
-	if element % 3 == 0 && element % 5 == 0
+	if element % 15 == 0
 		"minedminds"
  	elsif
      	element % 3 == 0
