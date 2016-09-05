@@ -10,16 +10,16 @@ def mined()
 	# and then to run each pass through the if statements
 	if element % 3 == 0 && element % 5 == 0
 		"minedminds"
- 		elsif
+ 	elsif
      	element % 3 == 0
      	"mined"
- 		elsif
+ 	elsif
      	element % 5 == 0
      	"minds"
- 		else
+ 	else
      	element
- 		end
  	end
+ end
 end
 
 ###### Below - Short code ######
@@ -29,32 +29,32 @@ end
 # 	a.map! do |e|
 # 		if e % 3 == 0 && e % 5 == 0
 # 			"minedminds"
-#    	elsif
-#      	e % 3 == 0
-#      	"mined"
-#    	elsif
-#      	e % 5 == 0
-#      	"minds"
-#    	else
-#      	e
-#    	end
-#   end
+# 		elsif
+# 			e % 3 == 0
+# 			"mined"
+# 		elsif
+# 			e % 5 == 0
+# 			"minds"
+# 		else
+# 			e
+# 		end
+# 	end
 # end
 
 ###### Below - Prints to screen ######
 
 # array = [*1..100]
 # array.map! do |element|
-#   if element % 3 == 0 && element % 5 == 0
-#     "minedminds"
-#  	elsif
-#  		element % 3 == 0
-#  		"mined"
-#  	elsif
-#  		element % 5 == 0
-#  		"minds"
-#  	else
-#  		 element
-#  	end
+# 	if element % 3 == 0 && element % 5 == 0
+# 		"minedminds"
+# 	elsif
+# 		element % 3 == 0
+# 		"mined"
+# 	elsif
+# 		element % 5 == 0
+# 		"minds"
+# 	else
+# 		element
+# 	end
 # end
 #    	puts array
