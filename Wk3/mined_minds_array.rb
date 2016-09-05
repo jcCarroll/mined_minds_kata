@@ -4,9 +4,10 @@ def mined()
 	array = [*1..100]
 	# building an array numbering from 1 to 100
 	array.map do |element|
-	# not 100% on what map does. not sure it is the right method
-	# is the array my object or class and is map my method?
-	# the || tells my function to cycle through the elements in my array
+	# not 100% on what map does. i think it takes each element in the array
+	# passes it through the block (if statements) and replaces the element in 
+	# the array with what the block returns
+	# the || tells my function to cycle through the elements in my array?
 	# and then to run each pass through the if statements
 	if element % 3 == 0 && element % 5 == 0
 		"minedminds"
