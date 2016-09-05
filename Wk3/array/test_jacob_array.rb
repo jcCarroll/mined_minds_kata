@@ -10,6 +10,6 @@ class TestJacobArray <Minitest::Test
 
 	def test_element_even_jacob
 		result = carroll()
-		assert_equal("Jacob", result[2])
+		assert_equal("Jacob", result[1])
 	end
 end
