@@ -1,9 +1,9 @@
 # i don't think this is the right way. it seems that i should be taking the
 # array to the test and then going through it.
 def mined()
-	mm_array = [*1..100]
+	array = [*1..100]
 	# building an array numbering from 1 to 100
-	mm_array.map! do |element|
+	array.map! do |element|
 	# not 100% on what map does. i think it takes each element in the array
 	# passes it through the block (if statements) and replaces the element in 
 	# the array with what the block returns
@@ -22,7 +22,7 @@ def mined()
   		   	element
  		end
 	end
-	mm_array
+	array
 end
 
 
