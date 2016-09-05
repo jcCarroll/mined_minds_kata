@@ -24,16 +24,6 @@ class TestMinedMindsFunction <Minitest::Test
 		result = mined()
 		assert_equal("minedminds", result[14])
 	end
-
-	def test_first_element
-		result = mined()
-		assert_equal(1, result.first)
-	end
-
-	def test_last_element
-		result = mined()
-		assert_equal("minds", result.last)
-	end
 end
 
 # i have turned off the "result = mined()" on some tests. it does not seem to
