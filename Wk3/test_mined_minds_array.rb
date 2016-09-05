@@ -35,3 +35,6 @@ class TestMinedMindsFunction <Minitest::Test
 		assert_equal("minds", mined.last)
 	end
 end
+
+# i have turned off the "result = mined()" on some tests. it does not seem to
+# make a difference.
