@@ -7,4 +7,9 @@ class TestJacobArray <Minitest::Test
 		result = carroll()
 		assert_equal(1, result[0])		
 	end
+
+	def test_element_even_jacob
+		result = carroll()
+		assert_equal("Jacob", result[2])
+	end
 end
